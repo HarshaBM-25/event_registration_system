@@ -5,7 +5,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect form data
     $title = trim($_POST['title']);
     $description = trim($_POST['description']);
-    $date = $_POST['date'];  // Assuming column name in database is 'date'
+    $date = $_POST['date'];  // Assuming column name in database is 'date'.
     $time = $_POST['time'];
     $venue = trim($_POST['venue']);
     $coordinator = trim($_POST['coordinator']);
